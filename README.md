@@ -424,3 +424,62 @@ DANISH
 #### Aneesa:
 1. Resolve conflict(if exist) and merge Pull Request
 
+## 3. Containerization
+### Prerequisites:
++ Docker Desktop installed
++ Complete Step 1. Git Repository & Version Control
+
+### Steps:
+
+#### Asmeer:
+1. Sync upstream repository
+2. Update local repository:
+   ```
+   git pull origin main
+   ```
+3. Create Dockerfile with following content:
+   ```
+   # Use a basic nginx image
+   FROM nginx:latest
+   # Copy local content to the nginx default location
+   COPY . /usr/share/nginx/html
+   # Expose port 80
+   EXPOSE 80
+   ```
+4. Build Docker image:
+   ```
+   docker build -t myapp .
+   ```
+5. Verify working by running Docker container and opening `localhost` in web browser:
+   ```
+   docker run -d -p 8080:80 --name Top5Anime myapp
+   ```
+
+#### ANEESA:
+1. Resolve conflict(if exist) and merge Pull Request
+
+## 4. AWS Deployment
+### Prerequisites:
++ AWS EC2 has been set up
++ Docker and git has been set up on AWS EC2
++ Complete Step 1. Git Repository & Version Control
++ Complete Step 3. Containerization
+
+### Steps:
+
+#### AINUR DAN DANISH:
+1. SSH into AWS EC2 instance:
+   ```
+   ssh -i ec2.pem ec2-user@3.27.204.8
+   ```
+2. Clone repository to `/user/git/Devops-Project`:
+   ```
+   https://github.com/aneesasufiaa/devops-project.git
+   ```
+3. Build and run Docker image:
+   ```
+   docker build -t myapp .
+   docker run -d -p 80:80 --name Top5Anime myapp
+   ```
+4. Verify by accessing app on web browser:
+   [Top 5 Anime](http://3.27.204.8)
