@@ -20,14 +20,14 @@ DANISH
    ```
 3. Create index.html with following content:
    ```
-  < html>
-<html lang="en">
-<head>
+   < html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevOps Project</title>
-</head>
-<body>
+   </head>
+    <body>
     <h1>1.PETRONAS TWIN TOWER </h1>
     <h1>2.BATU CAVES</h1>
     <h1>3.KLCC PARK</h1>
@@ -38,10 +38,8 @@ DANISH
     <h1>8.LANGKAWI ISLAND</h1>
     <h1>9.TERENGGANU</h1>
     <h1>10.TAMAN NEGARA</h1>
-    
-
-</body>
-</html>
+   </body>
+   </html>
    ```
 
 #### Danish:
@@ -53,9 +51,9 @@ DANISH
    ```
 3. Added image  to index.html:
    ```
-  <!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+   <html lang="en">
+   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP 10 PLACES TO VISIT IN MALAYSIA SELAY</title>
@@ -84,8 +82,8 @@ DANISH
             font-size: 14px;
         }
     </style>
-</head>
-<body>
+   </head>
+    <body>
     <h1>TOP 10 PLACES TO VISIT IN MALAYSIA SELAY</h1>
 
     <div class="place">
@@ -146,8 +144,8 @@ DANISH
     <footer>
         <p>Explore more about Malaysia's beauty and culture!</p>
     </footer>
-</body>
-</html>
+   </body>
+   </html>
    ```
 
 4. Create Pull Request
@@ -162,8 +160,8 @@ DANISH
 3. Styling index.html:
    ```
    <!DOCTYPE html>
-<html lang="en">
-<body>
+   <html lang="en">
+   <body>
     <h1>TOP 10 PLACES TO VISIT IN MALAYSIA SELAY</h1>
 
     <div class="place">
@@ -229,8 +227,8 @@ DANISH
     <footer>
         <p>Explore more about Malaysia's beauty and culture!</p>
     </footer>
-</body>
-</html>
+   </body>
+   </html>
    ```
 
 4. Create Pull Request
@@ -246,8 +244,8 @@ DANISH
 4. Adding images and change style to index.html
    ```
    <!DOCTYPE html>
-<html lang="en">
-<head>
+   <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP 10 PLACES TO VISIT IN MALAYSIA SELAY</title>
@@ -348,8 +346,8 @@ DANISH
             }
         }
     </style>
-</head>
-<body>
+    </head>
+   <body>
     <h1>TOP 10 PLACES TO VISIT IN MALAYSIA SELAY</h1>
 
     <div class="container">
@@ -417,8 +415,8 @@ DANISH
     <footer>
         <p>Explore more about Malaysia's beauty and culture!</p>
     </footer>
-</body>
-</html>
+   </body>
+   </html>
    ```
    
 5. Create Pull Request
